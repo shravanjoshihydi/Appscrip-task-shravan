@@ -13,7 +13,7 @@ export default function Header() {
 
       <div className={styles.mainHeader}>
         <div className={styles.logo}>
-          <img src="/images/logo.png" alt="Site Logo" />
+          <img src="/images/Logo.png" alt="Site Logo" />
         </div>
         
         <div className={styles.logoText}>LOGO</div>
