@@ -55,8 +55,9 @@ export default function Home({ products, categories }) {
   return (
     <>
       <Head>
-        <title>Apprite</title>
-        <meta name="description" content="Browse curated artisan-crafted'Women, Kids, and Men at our store." />
+        <title>Appscrip</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/Logo.png"/>
+        <meta name="description" content="Browse goods for Women, Kids, and Men at our store." />
         <link href="https://db.onlinewebfonts.com/c/ca671f001f1c1ac07ba12ef439e7e65a?family=Simplon+Norm" rel="stylesheet"></link>
       </Head>
 
