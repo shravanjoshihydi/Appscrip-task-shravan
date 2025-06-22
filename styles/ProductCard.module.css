@@ -1,0 +1,50 @@
+.card {
+  border: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.card h3,.card p{
+  padding: 0 1rem;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+}
+.title{
+  text-align: left;
+}
+.description{
+  display: flex;
+  justify-content: space-between;
+}
+
+.outOfStock{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #ffffff66;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.description img{
+  width: 20px;
+  height: 20px;    
+}
+.outOfStock div{
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 20px;
+}
+@media (max-width:767px){
+  .description img{
+    position: absolute;
+    right: 5px;
+    top: 185px;
+  }
+  .description{
+    text-align: left;
+  }
+}
